@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HomeController {
 
-	@GetMapping("/home")
+	@GetMapping({ "/home", "/" })
 	public ModelAndView showLoginForm() {
 		ModelAndView mav = new ModelAndView("homeSILIB");
 		return mav;
