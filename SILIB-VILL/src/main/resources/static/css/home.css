@@ -144,7 +144,7 @@ h3, h4 {
 .navbar {
 	font-family: Montserrat, sans-serif;
 	margin-bottom: 0;
-	background-color: #707477;
+	background-color: #ff7b42;
 	border: 0;
 	font-size: 11px !important;
 	letter-spacing: 4px;
@@ -152,7 +152,7 @@ h3, h4 {
 }
 
 .navbar li a, .navbar .navbar-brand {
-	color: #f1f2ed !important;
+	color: #29292c !important;
 }
 
 .navbar-nav li a:hover {

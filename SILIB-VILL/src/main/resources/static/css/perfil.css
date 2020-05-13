@@ -1,6 +1,7 @@
 body {
 	font: 400 15px/1.8 Lato, sans-serif;
 	color: #707477;
+	position: relative; 
 }
 
 h3, h4 {
@@ -203,3 +204,17 @@ footer a:hover {
 textarea {
 	resize: none;
 }
+
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+  .navbar {
+    margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+   position: relative;
+   top: 50px;
+  }
